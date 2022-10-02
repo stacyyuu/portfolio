@@ -1,17 +1,17 @@
 {
     "basic_info": {
-      "name": "Ursula Lopez",
-      "titles": [ "Software Developer" ],
+      "name": "Stacy Yu",
+      "titles": [ "Full Stack Software Developer | Healthcare Background | Passionate about Front-End Development | Lifelong Learner" ],
       "social": [
         {
           "name": "github",
-          "url": "https://github.com",
+          "url": "https://github.com/stacyyuu",
           "class": "fab fa-github"
         },
         {
-          "name": "instagram",
-          "url": "https://www.instagram.com",
-          "class": "fab fa-instagram"
+          "name": "facebook",
+          "url": "https://www.facebook.com/stacy.yu.16/",
+          "class": "fab fa-facebook"
         }
       ],
       "image": "myProfile.jpg"

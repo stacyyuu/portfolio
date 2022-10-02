@@ -1,7 +1,7 @@
 {
     "basic_info": {
-      "description_header": "Hi",
-      "description": "👋 I'm Ursula Lopez. Fictional person for preview purposes :) I'm working with newest front-end frameworks like Angular, React and Vue. What you are seeing now is portfolio template from Code Fellows. If you like this portfolio template, make sure to ⭐ the repository to make it more recognizable for other users. Thank you 💜",
+      "description_header": "Hello",
+      "description": "My name is Stacy and I am a Software Developer. I have also been practicing as a Dental Hygienist for the past three years. I have extensive background in patient-centered care and working in a collaborative environment. I choose to switch careers into Software Development because it channeled my current career by offering continuous learning. I love the idea of being able to innovate new technologies. I have excellent detail-orientated and communication skills that will allow me to a great part of any team.",
       "section_name": {
         "about": "About me",
         "projects": "Projects",
@@ -11,11 +11,11 @@
     },
     "projects": [
       {
-        "title": "Animal Shelter",
-        "startDate": "2020",
+        "title": "The Horned Beast",
+        "startDate": "2022",
         "description": "The most expanded application I had opportunity to work with. I've learned many technologies and my code was reviewed by awesome curator. Application handles all adoption processess and allows to store all evidence on adopting animals from animal shelter.",
         "images": [
-          "images/portfolio/animal-shelter/p1.jpg",
+          "images/portfolio/the-horned-beast/hornedbeast.png",
           "images/portfolio/animal-shelter/p2.jpg"
         ],
         "url": "",
@@ -35,11 +35,11 @@
         ]
       },
       {
-        "title": "Photography",
-        "startDate": "2018",
+        "title": "What Do You Wanna Eat?",
+        "startDate": "2022",
         "description": "Personal project for study subject. I was responsible for testing photography application that optimizes images with popular algorithms used by graphic editors like Pixlr or Adobe Photoshop. I've earned A grade :)",
         "images": [
-          "images/portfolio/photography/p1.jpg",
+          "images/portfolio/WDYWE/WDYWE.png",
           "images/portfolio/photography/p2.jpg"
         ],
         "url": "https://github.com",
@@ -55,12 +55,12 @@
         ]
       },
       {
-        "title": "3D Object Viewer",
-        "startDate": "2015",
+        "title": "Salmon Cookies",
+        "startDate": "2022",
         "description": "One of the first apps I was working on my internship. I had to develop front-end implementation for app that shows 3D models of known buildings. This was also my first project in Angular framework. I've learned a lot!",
         "images": [
-          "images/portfolio/adventure/p1.jpg",
-          "images/portfolio/adventure/p2.jpg"
+          "images/portfolio/salmon-cookies/salmoncookies.png",
+          "images/portfolio/salmon-cookies/bio.png"
         ],
         "url": "https://github.com",
         "technologies": [
