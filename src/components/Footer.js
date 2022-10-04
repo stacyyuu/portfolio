@@ -30,8 +30,8 @@ class Footer extends Component {
                 style={{ display: "inline" }}
               >
                 <span
-                  className="iconify language-icon mr-5"
-                  data-icon="twemoji-flag-for-flag-united-kingdom"
+                  // className="iconify language-icon mr-5"
+                  // data-icon="twemoji-flag-for-flag-united-kingdom"
                   data-inline="false"
                   id={window.$primaryLanguageIconId}
                 ></span>
@@ -46,8 +46,8 @@ class Footer extends Component {
                 style={{ display: "inline" }}
               >
                 <span
-                  className="iconify language-icon"
-                  data-icon="twemoji-flag-for-flag-poland"
+                  // className="iconify language-icon"
+                  // data-icon="twemoji-flag-for-flag-poland"
                   data-inline="false"
                   id={window.$secondaryLanguageIconId}
                 ></span>

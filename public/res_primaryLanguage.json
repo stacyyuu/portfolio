@@ -13,40 +13,48 @@
       {
         "title": "The Horned Beast",
         "startDate": "2022",
-        "description": "The most expanded application I had opportunity to work with. I've learned many technologies and my code was reviewed by awesome curator. Application handles all adoption processess and allows to store all evidence on adopting animals from animal shelter.",
+        "description": "Code 301 project where I displayed a gallery of horned beast. The user is able to click on the beast's image for a larger size, vote for their favorite beast, and filter the gallery by number of horns.",
         "images": [
           "images/portfolio/the-horned-beast/hornedbeast.png",
-          "images/portfolio/animal-shelter/p2.jpg"
+          "images/portfolio/the-horned-beast/hornedbeast2.png"
         ],
-        "url": "",
+        "url": "https://thehornedbeasts.netlify.app/",
         "technologies": [
           {
-            "class": "devicon-angularjs-plain",
-            "name": "Angular"
+            "class": "devicon-html5-plain",
+            "name": "HTML5"
           },
           {
-            "class": "devicon-typescript-plain",
-            "name": "TypeScript"
+            "class": "devicon-css3-plain",
+            "name": "CSS 3"
           },
           {
-            "class": "devicon-csharp-plain",
-            "name": "C#"
+            "class": "devicon-javascript-plain",
+            "name": "JavaScript"
+          },
+          {
+            "class": "devicon-react-plain",
+            "name": "React"
           }
         ]
       },
       {
         "title": "What Do You Wanna Eat?",
         "startDate": "2022",
-        "description": "Personal project for study subject. I was responsible for testing photography application that optimizes images with popular algorithms used by graphic editors like Pixlr or Adobe Photoshop. I've earned A grade :)",
+        "description": "Code 201 final project. We helped user's solve the common question of Where Do You Wanna Eat? We created a form that allows the user to choose the type of cuisine they are craving and add any additional dietary preferences to the search. The user is also able to bookmark a restaurant they want to save for later and then view it in the favorites tab.",
         "images": [
           "images/portfolio/WDYWE/WDYWE.png",
-          "images/portfolio/photography/p2.jpg"
+          "images/portfolio/WDYWE/WDYWE2.png"
         ],
-        "url": "https://github.com",
+        "url": "https://what-do-you-wanna-eat.github.io/WDYWE/",
         "technologies": [
           {
-            "class": "devicon-react-original",
-            "name": "React"
+            "class": "devicon-html5-plain",
+            "name": "HTML5"
+          },
+          {
+            "class": "devicon-css3-plain",
+            "name": "CSS 3"
           },
           {
             "class": "devicon-javascript-plain",
@@ -57,61 +65,56 @@
       {
         "title": "Salmon Cookies",
         "startDate": "2022",
-        "description": "One of the first apps I was working on my internship. I had to develop front-end implementation for app that shows 3D models of known buildings. This was also my first project in Angular framework. I've learned a lot!",
+        "description": "201 project where I constructed sales data for our friend Pat's Salmon Cookie cafe. I included a form that is able to formulate sales data by inputing data already collected.",
         "images": [
           "images/portfolio/salmon-cookies/salmoncookies.png",
-          "images/portfolio/salmon-cookies/bio.png"
+          "images/portfolio/salmon-cookies/BIO.png"
         ],
-        "url": "https://github.com",
+        "url": "https://stacyyuu.github.io/cookie-stand/",
         "technologies": [
           {
-            "class": "devicon-angularjs-plain",
-            "name": "Angular"
+            "class": "devicon-html5-plain",
+            "name": "HTML5"
           },
           {
-            "class": "devicon-typescript-plain",
-            "name": "TypeScript"
+            "class": "devicon-css3-plain",
+            "name": "CSS 3"
           },
           {
-            "class": "devicon-csharp-plain",
-            "name": "C#"
+            "class": "devicon-javascript-plain",
+            "name": "JavaScript"
           }
         ]
       }
     ],
     "experience": [
       {
-        "company": "DefOpenSource",
-        "title": "Front-End Developer",
-        "years": "10.2019 - present",
+        "company": "Code Fellows",
+        "title": "Software Engineer",
+        "years": "06.2022 - present",
         "mainTech": [
-          "Angular 8/9/10"
+          "JavaScript"
         ],
         "technologies": [
-          "REST API",
-          "RxJS",
-          "JavaScript",
           "Bootstrap",
-          "MDBootstrap",
-          "EF Core",
-          ".NET Core",
-          "SignalR",
-          "Angular Material"
+          "React",
+          "HTML 5",
+          "CSS 3"
         ]
       },
       {
-        "company": "Serros Solutions",
-        "title": "Intern",
-        "years": "01.2018 - 09.2019",
+        "company": "Elevate Family Dentistry",
+        "title": "Dental Hygienist",
+        "years": "06.2022 - present",
         "mainTech": [
-          "Angular 7/8"
+          "Dental Provider"
         ],
         "technologies": [
-          "RxJS",
-          "Django",
-          "PHP",
-          "JavaScript",
-          "DHTMLX Gantt"
+          "Prophylaxis",
+          "Scaling and Root Planing",
+          "Local Anesthesia",
+          "Radiology",
+          "Nitrous Administration"
         ]
       }
     ]

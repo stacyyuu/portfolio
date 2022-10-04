@@ -1,8 +1,7 @@
 import React, { Component } from "react";
 import { Icon } from "@iconify/react";
-import angularIcon from "@iconify/icons-logos/angular-icon";
+import javascriptIcon from "@iconify/icons-logos/javascript";
 import reactIcon from "@iconify/icons-logos/react";
-import vueIcon from "@iconify/icons-logos/vue";
 
 class About extends Component {
   render() {
@@ -18,7 +17,7 @@ class About extends Component {
     return (
       <section id="about">
         <div className="col-md-12">
-          <h1 style={{ color: "black" }}>
+          <h1 style={{ color: "gray"}}>
             <span>{sectionName}</span>
           </h1>
           <div className="row center mx-auto mb-5">
@@ -27,18 +26,14 @@ class About extends Component {
                 <span style={{ cursor: "auto" }}>
                   <img
                     src={profilepic}
-                    alt="Avatar placeholder"
+                    alt="Headshot of me"
                   />
                   <Icon
-                    icon={angularIcon}
+                    icon={javascriptIcon}
                     style={{ fontSize: "400%", margin: "9% 5% 0 5%" }}
                   />
                   <Icon
                     icon={reactIcon}
-                    style={{ fontSize: "400%", margin: "9% 5% 0 5%" }}
-                  />
-                  <Icon
-                    icon={vueIcon}
                     style={{ fontSize: "400%", margin: "9% 5% 0 5%" }}
                   />
                 </span>
@@ -68,11 +63,13 @@ class About extends Component {
                     ></span>
                   </div>
                   <div
-                    className="card-body font-trebuchet text-justify ml-3 mr-3"
+                    className="card-body font-trebuchet text-justify"
                     style={{
                       height: "auto",
-                      fontSize: "132%",
-                      lineHeight: "200%",
+                      fontSize: "160%",
+                      lineHeight: "220%",
+                      padding: "20px",
+                      marginLeft: "10px",
                     }}
                   >
                     <br />
