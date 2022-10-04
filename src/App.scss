@@ -18,6 +18,7 @@ html {
 .title-container {
 	height: 50px;
 	font-size: 20px;
+	color: black;
 }
 
 .title-styles {
@@ -32,6 +33,7 @@ html {
 
 header {
 	position: relative;
+	color: black;
 	height: 520px;
 	min-height: 450px;
 	width: 100%;
@@ -39,7 +41,7 @@ header {
 	-webkit-background-size: cover;
 	text-align: center;
 	overflow: hidden;
-	background-color: #e9d5a1;
+	background-image: url(scss/clouds.jpg);
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
@@ -66,7 +68,7 @@ header .nav {
 }
 
 .project-date {
-	font-size: 16px;
+	font-size: 18px;
 	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 	padding: 8px 15px 2px 15px;
 	position: relative;
@@ -78,7 +80,8 @@ header .nav {
 }
 
 .skills-tile {
-	background-color: transparentize(#F8F5F4, 0.95);
+	background-color: transparentize(#F8F5F4, 0.50);
+	color: gray;
 	padding: 10px 10px 5px 10px;
 	width: 100px;
 	margin: 5px 0 5px 0;
@@ -93,10 +96,10 @@ header .nav {
 }
 
 header h1 {
-	font-size: 400%;
+	font-size: 500%;
 	text-align: center;
 	font-weight: 600 !important;
-	color: #353239;
+	color: black;
 	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 	margin: 0 auto 18px auto;
 	width: 100%;
@@ -121,7 +124,8 @@ header h1 {
 }
 
 #about {
-	background: #fff;
+	background: #F9DEDF;
+	color: gray;
 	overflow: hidden;
 }
 
@@ -130,7 +134,6 @@ header h1 {
 	font: 28px/20px 'opensans-bold', sans-serif;
 	text-transform: uppercase;
 	letter-spacing: 3px;
-	color: black;
 	text-align: center;
 }
 
@@ -176,16 +179,16 @@ header h1 {
 
 .project-title-settings {
 	margin-top: 5%;
-	font: 18px/24px 'opensans-bold', sans-serif;
+	font: 22px/30px 'opensans-bold', sans-serif;
 	text-transform: uppercase;
 	letter-spacing: 3px;
-	color: black;
+	color: gray;
 	text-align: center;
 }
 
 .polaroid img {
 	display: block;
-	max-width: 200px;
+	max-width: 450px;
 }
 
 .polaroid span {
@@ -232,32 +235,34 @@ header h1 {
 }
 
 #resume {
-	background: #efe1bd;
+	background: #E0C6B9;
 }
 
 .experience-icon {
 	font-size: 300%;
+	color: gray;
+	background-color: #EADBC8;
 	margin-top: 25%;
 	text-align: center;
 }
 
 .main-badge {
-	font-size: 13px !important;
+	font-size: 15px !important;
 	text-align: left !important;
 	padding: 5px 8px 5px 8px !important;
 	vertical-align: baseline;
-	background-color: #AE944F !important;
+	background-color: gray !important;
 	color: white;
 	font-weight: lighter !important;
 	font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
 .experience-badge {
-	font-size: 11px !important;
+	font-size: 15px !important;
 	text-align: left !important;
 	padding: 5px 8px 5px 8px !important;
 	vertical-align: baseline;
-	background-color: #f9f5e9 !important;
+	background-color: gray !important;
 	color: black;
 	font-weight: lighter !important;
 	font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
@@ -338,7 +343,7 @@ header h1 {
 	text-align: justify;
 	padding: 5px 5px 0 5px;
 	margin-bottom: 20px;
-	font-size: 12px;
+	font-size: 15px;
 }
 
 .awssld__next {
@@ -354,7 +359,7 @@ header h1 {
 }
 
 #portfolio {
-	background: #efe1bd;
+	background:  #E0C6B9;
 	padding-bottom: 5%;
 }
 
@@ -390,26 +395,25 @@ header h1 {
 }
 
 #skills {
-	background: #1F1F1F;
+	background: #F9DEDF;
 	min-height: 200px;
 	width: 100%;
 	overflow: hidden;
-	padding-bottom: 10%;
+	padding-bottom: 4%;
 }
 
 .section-title {
-	padding-top: 5%;
-	padding-bottom: 5%;
-	font: 18px/24px 'opensans-bold', sans-serif;
+	padding-top: 4%;
+	padding-bottom: 4%;
+	font: 35px/24px 'opensans-bold', sans-serif;
 	text-transform: uppercase;
 	letter-spacing: 3px;
-	color: #fff;
+	color: gray;
 	text-align: center;
 }
 
 .skill-icon {
-	font-size: 180%;
-	color: white;
+	font-size: 220%;
 	text-align: center;
 	position: relative;
 }
@@ -419,7 +423,7 @@ footer {
 	min-height: 100px;
 	width: 100%;
 	overflow: hidden;
-	font-size: 14px;
+	font-size: 20px;
 	color: white;
 	position: relative;
 	text-align: center;
@@ -436,6 +440,6 @@ footer a:focus {
 }
 
 .social-links {
-	margin-top: 10px;
-	font-size: 22px;
+	margin-top: 15px;
+	font-size: 40px;
 }
